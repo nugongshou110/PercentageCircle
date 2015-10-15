@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <com.zhangqi.percentagecircle.PercentageRing
+        android:id="@+id/Circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:radius="30"
+        app:textColor="#ffffffff"
+         />
+
+
+    <com.zhangqi.percentagecircle.PercentageRing
+        android:id="@+id/Circle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:radius="50"
+        app:circleBackground="#ff43CD80"
+        app:ringColor="#ff3cb371"
+        app:textColor="#ffffffff"
+         />
+    <com.zhangqi.percentagecircle.PercentageRing
+        android:id="@+id/Circle3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:circleBackground="#ffFFF68F"
+        app:radius="70"
+        app:ringColor="#ffFFEC8B"
+        />
+    <com.zhangqi.percentagecircle.PercentageRing
+        app:circleBackground="#ff00eeee"
+        app:ringColor="#ff00e5ee"
+        app:radius="90"
+        app:textColor="#ffffffff"
+        android:id="@+id/Circle4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+</LinearLayout>
